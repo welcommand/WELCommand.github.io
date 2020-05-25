@@ -1,0 +1,38 @@
+# Site settings
+title:          未预言
+description:    "碳基跃牵中不总是重要的一条基础链路"
+url:            "https://welcommand.github.io"
+
+
+# Author
+author:
+  name:         WELCommand
+  url:          https://github.com/welcommand
+  email:        weimoumou@icloud.com
+
+# Build settings
+markdown:       kramdown
+include:
+  - _pages
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+# Gems
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  # - jemoji #Uncomment this to allow emoji in your post
+
+# Permalinks
+permalink:      /:year-:month-:day/:title
+paginate:       5
+
+# Excludes
+exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
+
+# Disqus (Set to your disqus id)
+disqus:         jekyll-tale
